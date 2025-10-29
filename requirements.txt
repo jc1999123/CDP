@@ -1,0 +1,38 @@
+# Core scientific stack
+numpy==2.0.2
+scipy==1.13.1
+pandas==2.2.3
+h5py==3.10.0
+
+# Deep learning & optimization (GPU CUDA 11.8)
+torch==2.7.0+cu118
+torchvision==0.14.1+cu118
+torchaudio==0.13.1+cu118
+pytorch-lightning==2.5.1
+lightning-utilities==0.14.3
+jax==0.4.30
+jaxlib==0.4.30
+flax==0.8.5
+optax==0.2.4
+equinox==0.11.10
+jaxopt==0.8.5
+
+# Single-cell & perturbation analysis
+scanpy==1.9.6
+anndata==0.10.8
+pertpy==0.6.0
+muon==0.1.6
+scvi-tools==1.1.6.post2
+decoupler==1.8.0
+
+# Visualization & utils
+matplotlib==3.9.4
+seaborn==0.13.1
+plotnine==0.13.6
+tqdm==4.67.1
+loguru==0.7.3
+requests==2.27.1
+pyyaml==6.0
+
+# Optional: probabilistic modeling (if used)
+numpyro==0.18.0
